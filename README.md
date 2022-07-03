@@ -1,1 +1,1 @@
-Win64 OpenSSL v3.0.4
+Win64 OpenSSL v1_1_1p
