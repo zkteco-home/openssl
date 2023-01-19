@@ -217,6 +217,7 @@ extern "C" {
 #define OSSL_KDF_PARAM_PKCS12_ID    "id"        /* int */
 #define OSSL_KDF_PARAM_KBKDF_USE_L  "use-l"             /* int */
 #define OSSL_KDF_PARAM_KBKDF_USE_SEPARATOR  "use-separator"     /* int */
+#define OSSL_KDF_PARAM_KBKDF_R      "r"         /* int */
 #define OSSL_KDF_PARAM_X942_ACVPINFO        "acvp-info"
 #define OSSL_KDF_PARAM_X942_PARTYUINFO      "partyu-info"
 #define OSSL_KDF_PARAM_X942_PARTYVINFO      "partyv-info"
@@ -397,6 +398,7 @@ extern "C" {
 #define OSSL_PKEY_RSA_PSS_SALT_LEN_DIGEST "digest"
 #define OSSL_PKEY_RSA_PSS_SALT_LEN_MAX    "max"
 #define OSSL_PKEY_RSA_PSS_SALT_LEN_AUTO   "auto"
+#define OSSL_PKEY_RSA_PSS_SALT_LEN_AUTO_DIGEST_MAX "auto-digestmax"
 
 /* Key generation parameters */
 #define OSSL_PKEY_PARAM_RSA_BITS             OSSL_PKEY_PARAM_BITS
